@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+	width: 90%;
+	min-height: 300px;
+	margin: 10px auto;
+	padding: 10px;
+	background: white;
+	text-align: center;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 5%;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 16px;
+}
+
+#input-code {
+	margin-top: 10px;
+	width: 95%;
+	height: 200px;
+	border-radius: 5px;
+	display: inline-block;
+	resize: none;
+}
+
+#plot {
+	margin: 10px 300px;
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	background: #008CBA;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 17px;
+	font-style: arial;
+}
+
+#plot:hover {
+	background: #006A98;
+}
+
+#container {
+	width: 90%;
+	height: 700px;
+	margin: auto;
+	display: none;
+}
